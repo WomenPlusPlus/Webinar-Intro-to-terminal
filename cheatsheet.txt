@@ -1,0 +1,42 @@
+# cd
+
+Change directory - move between folders in the terminal
+
+cd newfolder - moves into the newfolder directory
+cd .. - moves up one directory
+cd ../.. - moves up 2 directories
+
+# ls
+
+List - list the contents of a directory
+
+ls - list files and folders
+ls -a - list all files and folders (even hidden ones)
+ls -ahl - list all files and folders and print in a human readable list
+ls newfolder - list files and folders in newfolder
+
+# pwd
+
+Present Working Directory - print the path of the folder you are in right now
+
+# echo
+
+Echo - Print whatever you type after echo to the command line
+
+echo "Hello" - Will print "Hello" to the command line
+
+# mkdir
+
+Make directory - Makes a new directory wherever you choose
+
+mkdir newfolder - makes a new folder in the Present Working Directory
+mkdir ../newfolder - makes a new folder in the directory above you
+mkdir -p ../newfolder/newsubfolder/newsubsubfolder - makes all the folders that do not exist
+
+# touch
+
+Touch - Creates an empty file
+
+touch newfile.txt - Creates an empty text file
+touch newreport.pdf - Creates an empty pdf
+touch newwhat - Creates an empty file with no extension
