@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "The shell prompt is what you run commands from \n (press any key to continue)"
+echo "The shell prompt is what you run commands from \n (press enter key to continue)"
 read next
 echo "A shell script is a file that runs a set of commands so you do not have to type them all out \n"
 read next
