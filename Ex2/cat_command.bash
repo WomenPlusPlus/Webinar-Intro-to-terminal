@@ -2,15 +2,16 @@
 
 echo "cat command comes from the word concatenate and, hence, can be used to concatenate several files.\n However, it also has other important functionalities such us viewing what's in a file, creating new files and redirecting the output of one file to another file. \n The general syntax is: cat [option] [filename]\n"
 read next
-echo "Let's start creating our first file.\n In order to do that, we should type the command cat followed by the operator > and the name of the file we want to create. \n Let's type: cat >file_1 <<EOF and then type: Hello world! (press enter key) EOF"
+echo "Let's start creating our first file.\n In order to do that, we should type the command cat followed by the operator > and the name of the file we want to create. \n So, first we would type: cat >file_1 <<EOF \n And then we would type what we want to write. For instance: Hello world! (press enter key) EOF"
 read next
 cat >file_1 <<EOF
 Hello world!
 EOF
+read next
 echo "Now if we type 'cat file_1', it will show us what is inside our file.\n"
 read next
 cat file_1
-echo "Let's create another file: type 'cat >file_2 <<EOF' and then write 'Nice to see you! (press enter key) EOF' \n"
+echo "Let's create another file: type 'cat >file_2 <<EOF' which will contain the sentence 'Nice to see you!' \n"
 read next
 cat >file_2 <<EOF
 Nice to see you!
