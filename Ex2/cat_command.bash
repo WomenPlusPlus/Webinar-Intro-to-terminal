@@ -1,5 +1,4 @@
 #!/bin/sh
-
 echo "cat command comes from the word concatenate and, hence, can be used to concatenate several files.\n However, it also has other important functionalities such us viewing what's in a file, creating new files and redirecting the output of one file to another file. \n The general syntax is: cat [option] [filename]\n"
 read next
 echo "Let's start creating our first file.\n In order to do that, we should type the command cat followed by the operator > and the name of the file we want to create. \n So, first we would type: cat >file_1 <<EOF \n And then we would type what we want to write. For instance: Hello world! (press enter key) EOF"
@@ -31,7 +30,7 @@ cat -n file_3
 echo "You can also print the symbol $ at the end of each line and in the spaces between lines by typing the command 'cat -e file_3'\n"
 read next
 cat -e file_3
-echo -e "Let's try now to redirect the content of one file to the other. If we type 'cat file_1 > file_2', what do you think it will happen?.\n And what if we type 'cat file_1 > file_4'? \n Let's see one by one."
+echo "Let's try now to redirect the content of one file to the other. If we type 'cat file_1 > file_2', what do you think it will happen?.\n And what if we type 'cat file_1 > file_4'? \n Let's see one by one."
 read next
 cat file_1 > file_2
 echo "Let's check the content inside file_2. Type 'cat file_2'\n"
